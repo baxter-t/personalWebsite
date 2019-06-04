@@ -21,30 +21,30 @@
 				<form class="form-inline mt-2 mt-md-0">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#top"><u>home</u></a>
+							<a class="nav-link smoothScroll" href="#top"><u>home</u></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#about"><u>about</u></a>
+							<a class="nav-link smoothScroll" href="#skills"><u>skills</u></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#skills"><u>skills</u></a>
+							<a class="nav-link smoothScroll" href="#projects"><u>projects</u></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects"><u>projects</u></a>
+							<a class="nav-link smoothScroll" href="#about"><u>about</u></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#education"><u>education</u></a>
+							<a class="nav-link smoothScroll" href="#education"><u>education</u></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contact"><u>contact</u></a>
+							<a class="nav-link smoothScroll" href="#contact"><u>contact</u></a>
 						</li>
 					</ul>
 				</form>
 			</div>
 		</nav>
-		<div class="content">
+		<div id="content">
 		<!-- Begin page content -->
-		<div class="container" id="top">
+		<div class="container dontHide" id="top">
 			<div class="row">
 				<div class="col-12 text-center">
 					<h1 class="display-1">Hello</h1>
@@ -54,24 +54,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="container d-none d-sm-block">
+		<div class="container d-none d-sm-block dontHide">
 			<div class="row">
 				<div class="col-12">
 					<img src="./img/landing2.jpg" class="landing" alt="">
-				</div>
-			</div>
-		</div>
-		<div class="container" id="about">
-			<div class="row align-items-center">
-				<div class="col-sm-3">
-					<img src="./img/headshot.jpg" class="headshot">
-				</div>
-				<div class="col-sm-9">
-					<h1>About me</h1>
-					<p>Hi! I'm Tom, a software engineering student at the <a href="https://future-students.uq.edu.au/study?gclid=Cj0KCQjwocPnBRDFARIsAJJcf94OYLXVI3lZHFIXTOPD1B5Mcdq3_WZVxv3uz3zwy4jEFhPMqCU5MyYaAhqtEALw_wcB&gclsrc=aw.ds" title="">University of Queensland</a> in Brisbane. I've been working with software since year 9, and have completed projects for the Web, iOS and the console.</p>
-					<p>I love creating beautiful solutions for complex problems either in a team, or independently.</p>
-					<p>I will graduate from my degree at the end of 2021 but I am always interested in experiencing more of the industry, so if you have a use for any of my skills, please get in touch!</p>
-					<a class="btn btn-outline-dark btn-lg callToAction" href="#contact">Contact me</a>
 				</div>
 			</div>
 		</div>
@@ -192,6 +178,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="container" id="about">
+			<div class="row align-items-center">
+				<div class="col-sm-3">
+					<img src="./img/headshot.jpg" class="headshot">
+				</div>
+				<div class="col-sm-9">
+					<h1>About me</h1>
+					<p>Hi! I'm Tom, a software engineering student at the <a href="https://future-students.uq.edu.au/study?gclid=Cj0KCQjwocPnBRDFARIsAJJcf94OYLXVI3lZHFIXTOPD1B5Mcdq3_WZVxv3uz3zwy4jEFhPMqCU5MyYaAhqtEALw_wcB&gclsrc=aw.ds" title="">University of Queensland</a> in Brisbane. I've been working with software since year 9, and have completed projects for the Web, iOS and the console.</p>
+					<p>I love creating beautiful solutions for complex problems either in a team, or independently.</p>
+					<p>I will graduate from my degree at the end of 2021 but I am always interested in experiencing more of the industry, so if you have a use for any of my skills, please get in touch!</p>
+					<a class="btn btn-outline-dark btn-lg callToAction" href="#contact">Contact me</a>
+				</div>
+			</div>
+		</div>
 		<div class="container" id="education">
 			<div class="row flex-row-reverse">
 				<div class="col-sm-12 text-center">
@@ -265,8 +265,9 @@
 		</div>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

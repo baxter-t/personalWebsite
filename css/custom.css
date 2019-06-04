@@ -3,12 +3,14 @@ body {
 	height:100%;
 	font-family: 'PT Mono', monospace;
 	overflow: hidden;
-	scroll-behavior: smooth;
 }
 
 body {
 	padding-top: 70px;
-	scroll-behavior: smooth;
+}
+
+.hideme {
+	opacity: 0;
 }
 
 a, p, li, dd, small {
@@ -36,7 +38,7 @@ a:hover {
 	margin-top: 100px;
 }
 
-.content {
+#content {
 	height:100%;
 	overflow:auto;
 }

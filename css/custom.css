@@ -1,12 +1,42 @@
+/*
+	Background Colour - f4f6f6
+	Dark Text - 1c2938
+	Highlight Text - cd3f3e
+	
+
+ */
+
 html,
 body {
 	height:100%;
 	font-family: 'PT Mono', monospace;
 	overflow: hidden;
+	background-color: #f4f6f6;
+	color: #1c2938;
 }
 
 body {
 	padding-top: 70px;
+	background-color: #f4f6f6;
+	color: #1c2938;
+}
+
+.card {
+	transition: background-color 0.5s ease;
+	background-color: #eaecec;
+	color: #1c2938;
+	border:0;
+	border-radius: 20px;
+}
+
+.card:hover {
+	background-color: #dddfdf;
+}
+
+.btn {
+	font-family: 'PT Mono', monospace;
+	color: #1c2938;
+	border-radius: 20px;
 }
 
 .hideme {
@@ -15,22 +45,20 @@ body {
 
 a, p, li, dd, small {
 	font-family: 'Roboto', sans-serif;
+	color: #1c2938;
 }
 
-a {
-	color:rgb(171, 76, 49);
+a, a:hover{
+	color: #cd3f3e;
 }
 
-a:hover {
-	color:rgb(151, 74, 61);
-}
 .callToAction {
 	font-family: 'PT Mono', monospace;
 }
 
 .projectSkills li {
 	font-family: 'PT Mono', monospace;
-	color:rgb(171, 76, 49);
+	color: #cd3f3e;
 }
 
 .container {
@@ -49,19 +77,20 @@ a:hover {
 }
 
 .navbarCustom {
-	background-color: white;
+	background-color: #f4f6f6;
 	font-family: 'PT Mono', monospace;
 }
 
 .navbarCustom li a {
-	background-color: white;
-	color: gray;	
+	transition: color 0.5s ease;
+	background-color: #f4f6f6;
+	color: #1c2938;
 	font-family: 'PT Mono', monospace;
 }
 
 .navbarCustom li a:hover {
-	background-color: white;
-	color:rgb(171, 76, 49);
+	background-color: #f4f6f6;
+	color: #cd3f3e;
 	font-family: 'PT Mono', monospace;
 }
 
@@ -71,6 +100,7 @@ a:hover {
 
 .landing {
 	width:100%;
+	border-radius: 20px;
 }
 
 .row {
